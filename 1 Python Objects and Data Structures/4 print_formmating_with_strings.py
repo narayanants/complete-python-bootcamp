@@ -5,7 +5,7 @@ print('The {0} {0} {0}'.format('Fox','Trox','POX')) # The Fox Fox Fox
 print('The {q} {b} {f}'.format(f="FOX",b="Brown",q="quick")) #The quick Brown FOX
 
 
-result = 100 /777
+result = 100 / 777
 print('The Result was {r:1.3f}'.format(r=result)) # The Result was 0.129
 
 results = 404.132839
