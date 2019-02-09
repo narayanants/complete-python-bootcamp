@@ -14,6 +14,7 @@ print(letters) # 23
 
 x = 'Hello world'
 print(x.upper()) # HELLO WORLD
+print(x.lower()) # hello world
 
 x = 'This is a string'
 print(x.split('i')) # ['Th', 's ', 's a str', 'ng']
