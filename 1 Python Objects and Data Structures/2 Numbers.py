@@ -1,3 +1,5 @@
+# Strings are immutable
+
 mystring = 'abcdefghijklmnopq';
 print(mystring[-3])
 
