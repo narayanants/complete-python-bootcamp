@@ -26,3 +26,5 @@ print(x.lower()) # hello world
 
 x = 'This is a string'
 print(x.split('i')) # ['Th', 's ', 's a str', 'ng']
+
+
