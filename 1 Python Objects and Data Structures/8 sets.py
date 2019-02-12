@@ -13,8 +13,6 @@ print(myset) #{1}
 myset.add(2)
 print(myset) #{1, 2}
 
-myset.add(2)
-print(myset) #{1, 2}
 
 mylist = [1,1,1,1,1,2,2,2,2,2,3,3,3,3,3,4,4,4,4,4,5,5,5,5,]
 print(set(mylist)) # {1, 2, 3, 4, 5}
