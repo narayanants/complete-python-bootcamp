@@ -1,0 +1,149 @@
+Solutions for Exercise questions:
+==================================
+
+1) What are Strings,List, Dictionary, Tuples?
+
+    String - Ordered Sequence of characters
+    Lists - Ordered Sequence of Objects (Mutable)
+    Tuples - Ordered Sequence of Objects(Tuples)
+    Dictionary - K:V pairing that is unordered
+
+Numbers:
+========
+
+2) Write an equation that uses multiplication, division, an exponent, addition, and subtraction that is equal to 100.25.
+
+(60 + (10 ** 2) / 4 * 7) - 134.75
+
+3) Answer these 3 questions without typing code. Then type code to check your answer.
+
+What is the value of the expression 4 * (6 + 5) = 44
+
+What is the value of the expression 4 * 6 + 5 = 29
+
+What is the value of the expression 4 + 6 * 5 = 34
+
+
+4) What is the type of the result of the expression 3 + 1.5 + 4?
+A) float
+
+5) What would you use to find a number’s square root, as well as its square?
+A) 
+    100 ** 0.5 = 10  (Square Root)
+    10 ** 2 (Square)
+
+
+Strings:
+========
+
+6) Given the string 'hello' give an index command that returns 'e'. Enter your code in the cell below:
+
+A) str[1]
+
+7) Reverse the string 'hello' using slicing:
+
+A) str = "Hello"
+   print(str[::-1])
+
+8) Given the string hello, give two methods of producing the letter 'o' using indexing.
+
+A)  str = "Hello"
+    print(str[-1])
+    print(str[4])
+
+
+Lists:
+======
+
+9) Build this list [0,0,0] two separate ways.
+
+A)  list = [0,0,0]
+    print(list)
+
+    list = [0] * 3
+    print(list)
+
+
+10) Reassign 'hello' in this nested list to say 'goodbye' instead:
+   
+A)  list3 = [1,2,[3,4,'hello']]
+    list3[2][2]= 'goodbye'
+    print(list3)
+
+11) Sort the list below:
+A) 
+    list4 = [5,3,4,6,1]
+    list4.sort()
+        OR 
+    sorted(list4)
+    print(sorted(list4))
+
+
+Dictionary:
+===========
+
+12) Using keys and indexing, grab the 'hello' from the following dictionaries:
+
+A) 
+    d = {'simple_key':'hello'}
+    print(d['simple_key'])
+
+   d = {'k1':[{'nest_key':['this is deep',['hello']]}]}
+   print(d['k1'][0]['nest_key'][1][0])
+
+    d = {'k1':[1,2,{'k2':['this is tricky',{'tough':[1,2,['hello']]}]}]}
+    print(d['k1'][2]['k2'][1]['tough'][2][0])
+
+14) Can you sort a dictionary? Why or why not?
+
+A) No! Because normal dictionaries are mappings not a sequence
+
+Tuples:
+========
+
+15)  What is the major difference between tuples and lists?
+
+A) Lists are Mutable
+    Tuples are Immutable
+
+16) How do you create a tuple?
+
+A) Using () Parenthesis
+
+
+Sets:
+======
+
+17) What is unique about a set?
+
+A) They don't allow duplicate items
+
+18) Use a set to find the unique values of the list below:
+
+A)  list5 = [1,2,2,33,4,4,11,22,3,3,2]
+    print(set(list5))
+
+Booleans:
+==========
+
+19) What will be the resulting Boolean of the following pieces of code (answer fist then check by typing it in!)
+
+    2 > 3 = False
+    3 <= 2 = False
+    3 == 2.0 = False
+    3.0 == 3 = True
+    4**0.5 != 2 False
+    
+
+    l_one = [1,2,[3,4]]
+    l_two = [1,2,{'k1':4}]
+
+    print(l_one[2][0] >= l_two[2]['k1']) // False
+
+
+
+
+
+
+
+
