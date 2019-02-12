@@ -1,9 +1,14 @@
-# Tuples
+'''
+Tuples
+------
 
-# Similar to lists
-# They are immutable
-# Once an element is assigned to a tuple it cannot be reassigned
-# Tuples use parenthesis (1,2,3)
+* Similar to lists
+* They are immutable
+* Once an element is assigned to a tuple it cannot be reassigned
+* Tuples use parenthesis (1,2,3)
+* Read only lists
+
+'''
 
 
 
