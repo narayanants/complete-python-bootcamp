@@ -3,7 +3,6 @@
 # Sets are unordered collection of unique elements
 # Meaning there can be only be one representative of the same object
 
-
 myset = set()
 print(myset)  # set()
 
