@@ -10,7 +10,6 @@
 # List : Objects retrieved by location
 # Ordered sequence can be indexed and sliced.
 
-
 my_dict = {'name': 'Narayanan'}
 print(my_dict['name'])  # Narayanan
 
