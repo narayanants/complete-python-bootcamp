@@ -4,8 +4,8 @@ def myfunc(a, b):
 
 print(myfunc(40, 60))
 
-
 # kwargs
+
 
 def somefunc1(**kwargs):
     if 'fruit' in kwargs:
@@ -14,7 +14,7 @@ def somefunc1(**kwargs):
         print('I did not find any fruit here')
 
 
-somefunc(fruit="Strawberry")
+somefunc1(fruit="Strawberry")
 
 # Second Function using args and kwargs
 
