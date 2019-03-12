@@ -42,7 +42,7 @@ result = add(20, 30)
 print(result)
 
 
-# PIG LATIN
+# PIG LATIN:
 def pig_latin(word):
     first_letter = word[0]
 
