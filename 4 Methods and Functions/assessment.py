@@ -10,20 +10,20 @@ def sphere(a, b):
 
 print(sphere(100, 20))
 
-
 # Write a function takes a two-word string and returns True if both words begin with same letter
+
 
 def circle(s):
     someword = s.split()
-    print(someword[0][1])
+    print(someword[0][0])
     print(someword[1][0])
     return someword[0][0] == someword[1][0]
 
 
 print(circle('Pettai Parak'))
 
-
 # Given two integers, return True if the sum of the integers is 20 or if one of the integers is 20. If not, return False¶
+
 
 def hexagon(a, b):
     if a+b == 20:
